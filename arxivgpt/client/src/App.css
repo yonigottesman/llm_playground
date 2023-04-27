@@ -1,0 +1,86 @@
+.app-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 3rem);
+  /* max-height: calc(100vh - 100rem); */
+  background-color: #c6dbee;
+  max-width: 80rem;
+  /* add this line to set the maximum width */
+  margin: 0 auto;
+  /* add this line to center the container horizontally */
+}
+
+.big-rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.rectangle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 800px;
+  margin: 0 auto;
+  /* add this line to center horizontally */
+  margin-top: 50px;
+  /* add this line to give space from the header */
+}
+
+.rectangle input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+}
+
+.rectangle button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.rectangle button:active {
+  background-color: #005cbf;
+}
+
+.rectangle .spinner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer-textarea {
+  height: 300px;
+  width: 100%;
+  resize: none;
+  margin-top: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0077be;
+  color: #fff;
+  height: 60px;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
