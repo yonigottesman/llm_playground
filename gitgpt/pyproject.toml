@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gitgpt"
+version = "0.1.0"
+description = ""
+authors = ["Yoni Gottesman <yonigo10@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.5"
+numpy = "^1.24.3"
+black = "^23.3.0"
+isort = "^5.12.0"
+ipykernel = "^6.22.0"
+flake8 = "^6.0.0"
+tiktoken = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
